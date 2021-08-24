@@ -89,6 +89,8 @@ html{
     flex-wrap: wrap;
     align-items:flex-end;
     justify-content: space-between;
+    margin-bottom: 18px;
+    margin-right: 0px;
 }
 
 .header__list{
@@ -113,14 +115,47 @@ html{
 }
 
 
-   
- 
+.search_and_menu{
 
-.header__logo:hover{
+    
+
+        
+}  
+
+.search_all{
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    margin: 0px 40px 15px 15px;
+    
    
-   
+
+    
 }
-      
+
+.phone{
+
+    font-family: Marko One;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0.03em;
+
+
+color: #000000;
+
+opacity: 0.5;
+}
+.user-logo{
+    max-width:27px;
+}
+.find_on_site-link{
+    max-width: 26px;
+}
+
+
 /* Header style-end */
 /* Header style-end */
 /* Header style-end */
@@ -170,13 +205,14 @@ text-shadow: 0px 4px 4px #8C1A43;
 }
 
 .yakor{
+color:white;
 border: none;
 max-width: 400px;
 margin: 0 auto 0 90px;
 font-family: Merriweather;
 font-style: normal;
 font-weight: bold;
-font-size: 14px;
+font-size: 13px;
 line-height: 16px;
 align-items: center;
 text-align: center;
@@ -191,10 +227,9 @@ border-radius: 22px;
 background: rgba(140, 26, 67, 0.63);
 }
 
-.yakor:focus:hover{
-    opacity: 20%;
- /* background-color:rgba(54, 41, 46, 20%)
-  */
+.yakor:hover{
+ background-color:rgba(54, 41, 46, 20%)
+ 
 }
 /* Section intro style-end */
 /* Section intro style-end */
