@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* START*/
+
+body {
+font-size: 16px;
+letter-spacing: 1px;
+line-height: 1.4px;
+color: #000000 ;
+font-weight: 400;
+font-family: 'Merriweather', serif;
+text-align: center;
+text-decoration: none;
+font-style:normal;
+font-weight: normal;
+
+}
+
+html{
+    box-sizing:border-box;
+}
+*,*::before, *::after{
+    box-sizing:inherit;
+}
+
+.wrapper{
+    max-width: 1054px;
+    margin:0 auto;
+}
+
+
+
+/* Header style-start */
+/* Header style-start */
+/* Header style-start */
+
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+
+.header__wrapper{
+    padding-top: 14px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+.header__list{
+    display:flex;
+    margin-bottom: 5px;
+}
+.header__item{
+    list-style-type: none;
+    margin-right: 30px;
+}
+.header__item:hover{
+    opacity: 20%;
+}
+
+.header__link{
+    line-height: -5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+
+}
+
+
+   
+ 
+
+.header__logo:hover{
+   
+   
+}
+      
+/* Header style-end */
+/* Header style-end */
+/* Header style-end */
+
+
+/* Section intro style-start */
+/* Section intro style-start */
+/* Section intro style-start */
+
+
+.intro{
+   
+    height:100vh;
+    background: url(../site.src/aneta-voborilova-4Cuz3ls1BCI-unsplash\ 1.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 260px;
+   
+  
+
+}
+
+.intro__title{
+margin-bottom: 20px;
+max-width: 409px;
+margin-left: 120px;
+position: absolute;
+width: 468px;
+height: 9px;
+left: -20px;
+top: 260px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+text-indent: 34px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px #8C1A43;
+}
+
+.yakor{
+border: none;
+max-width: 400px;
+margin: 0 auto 0 90px;
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+position: absolute;
+width: 228px;
+height: 43px;
+left: 100px;
+top: 323px;
+
+border-radius: 22px;
+background: rgba(140, 26, 67, 0.63);
+}
+
+.yakor:hover{
+ background-color:rgba(54, 41, 46, 20%)
+ 
+}
+/* Section intro style-end */
+/* Section intro style-end */
+/* Section intro style-end */
+
+
+    
+
